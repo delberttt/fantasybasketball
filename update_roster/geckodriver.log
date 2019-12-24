@@ -1,1103 +1,48 @@
-1577090453763	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileOGDEeX"
-1577091651902	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofile0JDC5e"
-1577091652653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577091652660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577091652660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577091652660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577177415608	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileXBUzxG"
+1577177416824	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileXBUzxG\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577177416844	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileXBUzxG\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577177417803	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577177418633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577177418633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577177418633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577177418633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577177418862	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+1577177419381	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577091655525	Marionette	INFO	Listening on port 51477
-1577091655560	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Child 15496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 15496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chro[Parent 15604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 15572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Chi1577091665932	Marionette	INFO	Stopped listening on port 51477
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[G
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577091819809	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileFZK903"
-1577091820605	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileFZK903\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577091820621	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileFZK903\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577091821535	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577091822325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577091822325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577091822325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577091822326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577091822559	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577091823031	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577091824478	Marionette	INFO	Listening on port 51804
-1577091824563	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 42ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 13ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 153ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 948ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-1577091828484	Marionette	ERROR	[30] No reply from Marionette:Register
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 45: TypeError: window is null
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript error: https://cdn1.espn.net/kona/a4ba63da7222-1.0.1702/_next/a927c872-81fa-4a5f-8924-70f9d0395f2f/page/basketball/boxscore.js, line 1: TypeError: a is null
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-1577093301034	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileYoh6oh"
-1577093301979	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileYoh6oh\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577093301990	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileYoh6oh\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577093304650	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577093306325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577093306325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577093306326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577093306327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577093307485	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577093309044	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577093313257	Marionette	INFO	Listening on port 52933
-1577093313465	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 44ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 23ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 201ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 3421ms)
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-[Parent 12444, Gecko_IOThread] WARNING: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
-[Parent 12444, Gecko_IOThread] WARNING: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
-JavaScript warning: https://www.monomax.me/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1761563161, line 1: unreachable code after return statement
-JavaScript warning: https://www.monomax.me/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1761563161, line 1: unreachable code after return statement
-JavaScript warning: https://www.monomax.me/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1761563161 line 1 > eval, line 1: unreachable code after return statement
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 12444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 8128, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
-[Child 8128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x660028,name=PNecko::Msg_RequestContextAfterDOMContentLoaded) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x1E004A,name=PBrowser::Msg_OnStateChange) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 12444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 10780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Ch1577093373981	Marionette	INFO	Stopped listening on port 52933
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577093388752	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilewIHUyx"
-1577093389715	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilewIHUyx\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577093389734	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilewIHUyx\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577093391167	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577093392311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577093392311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577093392312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577093392312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577093392668	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577093393397	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577093395877	Marionette	INFO	Listening on port 53124
-1577093396179	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 27ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 44ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 130ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2522ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-1577166187329	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileinHcCR"
-1577166189241	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileinHcCR\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166189252	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileinHcCR\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166190324	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577166191248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577166191248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577166191248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577166191249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577166191463	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577166191990	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577166193506	Marionette	INFO	Listening on port 54843
-1577166193581	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 12ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 35ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1108ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1336: uncaught exception: 2147500033
-JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1336: uncaught exception: 2147500033
-[Child 13904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[ChJavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: resource://devtools/server/actors/emulation.js, line 372: TypeError: this.targetActor.docShell is null
-JavaScript error: chrome://browser/content/parent/ext-browser.js, line 702: TypeError: browser.ownerGlobal is null
-JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 45: TypeError: window is null
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 8940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-[Child 616, Chrome_ChildThread] WARNING:[Parent 8940, Ge pipe ercrkoor_:IOThread] WARNING: pipe error :109: fi l1e0 9z:: /ftialsek _z15:/ta7528s2k9_3155/7b528u2935/build/src/ipc/chromium/src/chrome/common/iilpdc/_channel_win.cc, line 341
-src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1577166454711	Marionette	INFO	Stopped listening on port 54843
-[GPU 666
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577166468072	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileteYq0m"
-1577166468881	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileteYq0m\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166468903	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileteYq0m\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166469864	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577166470771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577166470772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577166470772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577166470772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577166471022	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577166471600	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577166473509	Marionette	INFO	Listening on port 55323
-1577166473812	Marionette	WARN	TLS certificate errors will be ignored for this session
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 11ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 41ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1296ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-1577166577293	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofiledL3eiP"
-1577166578030	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofiledL3eiP\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166578048	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofiledL3eiP\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166578959	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577166579779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577166579779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577166579779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577166579779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577166580003	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577166580508	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577166582167	Marionette	INFO	Listening on port 55611
-1577166582542	Marionette	WARN	TLS certificate errors will be ignored for this session
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 10ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 37ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1330ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 12508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 9232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[ChilIPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-[Parent 12508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 14516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 14516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/i[Parent 12508, Gecko_IOThread] WARNING: ppipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_cha
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-nnel_win.cc, linec 341
-[Child 12176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12176, C1577166880044	Marionette	INFO	Stopped listening on port 55611
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 6128, Chrome_ChildThread] WA
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577166892266	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilew636nz"
-1577166892960	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilew636nz\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166892975	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilew636nz\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577166893819	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577166894605	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577166894605	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577166894605	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577166894606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577166894831	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577166895377	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577166896892	Marionette	INFO	Listening on port 55995
-1577166897011	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 16ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 71ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1194ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 13824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 13824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 10384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.[Parecnt 13824, cGe,cko_IOThread] WARNING: pipe error: 109: file z:/task_1 line 341
-575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 11128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Ch1577167980908	Marionette	INFO	Stopped listening on port 55995
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-ain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577167462582	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577167463451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577167463451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577167463452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577167463452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577167463689	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577167464208	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577167466000	Marionette	INFO	Listening on port 56949
-1577167466020	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 22ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 20ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 57ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1188ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Child 6412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Chil[Parent 5304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1577167487691	Marionette	INFO	Stopped listening on port 56949
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 4676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577167508807	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilentWIsw"
-1577167509520	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilentWIsw\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577167509541	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilentWIsw\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577167510553	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577167511409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577167511409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577167511410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577167511410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577167511647	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577167512181	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577167513741	Marionette	INFO	Listening on port 57102
-1577167514049	Marionette	WARN	TLS certificate errors will be ignored for this session
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 81ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1181ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-1577167562597	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilez1waQw"
-1577167563318	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilez1waQw\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577167563333	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilez1waQw\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577167564372	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577167565289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577167565289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577167565289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577167565289	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577167565533	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577167566148	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577167567792	Marionette	INFO	Listening on port 57297
-1577167567828	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 50ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1312ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: https://fantasy.espn.com/basketball/team?leagueId=78370592&teamId=8&seasonId=2020, line 72: ReferenceError: UET is not defined
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 10324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-[Parent 10324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12308, Chrome_1577169582304	Marionette	INFO	Stopped listening on port 57297
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
-'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577167987301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577167987302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577167987553	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577167988024	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577167989577	Marionette	INFO	Listening on port 57818
-1577167990021	Marionette	WARN	TLS certificate errors will be ignored for this session
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 36ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1142ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 9232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 10252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child [Parent 9232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Chi1577168031015	Marionette	INFO	Stopped listening on port 57818
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 9504, Chrome_ChildThread]
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577168041148	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilepZT5U5"
-1577168041854	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilepZT5U5\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168041870	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilepZT5U5\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168042831	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577168043634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577168043634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577168043634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577168043634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577168043851	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577168044348	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577168045819	Marionette	INFO	Listening on port 58005
-1577168045884	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 24ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 41ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1304ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 12124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3340, Chrome_ChildThread] WARNING: pipe error: 109: fil[Parent 12124, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Chil1577168210223	Marionette	INFO	Stopped listening on port 58005
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577168221249	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileirUTB8"
-1577168221949	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileirUTB8\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168221965	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileirUTB8\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168222859	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577168223695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577168223695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577168223695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577168223696	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577168223946	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577168224462	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577168226064	Marionette	INFO	Listening on port 58313
-1577168226491	Marionette	WARN	TLS certificate errors will be ignored for this session
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
-[[Exception stack
-onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-fire@resource://gre/modules/ExtensionChild.jsm:1232:41
-receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
-_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
-_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
-_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
-_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
-receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
-receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
-]]
+1577177420921	Marionette	INFO	Listening on port 52338
+1577177421350	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 12ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 34ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1097ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 54ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1233ms)
 JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
@@ -1107,56 +52,6 @@ Current stack
 applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Child 3752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child [Parent 11240, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Ch1577168329002	Marionette	INFO	Stopped listening on port 58313
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577168343033	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileDrsxeV"
-1577168343717	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileDrsxeV\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168343726	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileDrsxeV\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577168344599	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577168345382	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577168345383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577168345383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577168345383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577168345654	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577168346136	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577168347588	Marionette	INFO	Listening on port 58648
-1577168347787	Marionette	WARN	TLS certificate errors will be ignored for this session
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
 [[Exception stack
 onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
@@ -1171,13 +66,7 @@ _handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
 receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
 receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
 ]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 34ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 37ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1242ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
+JavaScript error: , line 0: uncaught exception: undefined
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
 onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
@@ -1186,114 +75,6 @@ Current stack
 applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 12400, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1996, Chrome_ChildThread][Child 11584, Chrome_ChildThread] WARNING: pipe erro[Parent 12400, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12896, Chrome1577169739421	Marionette	INFO	Stopped listening on port 58648
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 14828
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577169761885	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileY8sXna"
-1577169763474	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileY8sXna\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577169763491	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileY8sXna\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577169766454	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577169768400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577169768401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577169768401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577169768401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577169768656	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577169769329	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577169770943	Marionette	INFO	Listening on port 60698
-1577169771049	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 13ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 39ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1546ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-1577169913535	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilet7QizI"
-1577169914354	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilet7QizI\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577169914372	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilet7QizI\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577169915425	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577169916465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577169916465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577169916465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577169916466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577169916731	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577169917349	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577169919391	Marionette	INFO	Listening on port 61071
-1577169919825	Marionette	WARN	TLS certificate errors will be ignored for this session
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
 [[Exception stack
 onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
@@ -1308,13 +89,75 @@ _handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
 receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
 receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
 ]]
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 33ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 20ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 122ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 3992ms)
+JavaScript error: , line 0: uncaught exception: undefined
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
 onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
@@ -1325,20 +168,20 @@ wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript error: , line 0: uncaught exception: Object
-[Parent 608, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 10352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Chi[Parent 608, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Ch[Child 9828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[C1577170449467	Marionette	INFO	Stopped listening on port 61071
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+[Parent 6300, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6300, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6300, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1577177771872	Marionette	INFO	Stopped listening on port 52338
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
+[GPU 15860, Chrome_Chil
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-up@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577170364781	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileijvfE9\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+1577177783833	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilef5dWHT"
+1577177784596	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilef5dWHT\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
 awaitPromise@XPIProvider.jsm:226:15
 syncLoadManifest@XPIInstall.jsm:754:22
 updateMetadata@XPIDatabase.jsm:2817:32
@@ -1351,24 +194,37 @@ _startProvider@AddonManager.jsm:651:17
 startup@AddonManager.jsm:875:14
 startup@AddonManager.jsm:3534:26
 observe@addonManager.js:87:29
-1577170366049	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577170367127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577170367128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577170367128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577170367128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577170367474	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577177784611	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilef5dWHT\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577177785493	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577177786324	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577177786324	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577177786325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577177786325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577177786562	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577170368159	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577177787066	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577170369929	Marionette	INFO	Listening on port 61670
-1577170370223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577177788552	Marionette	INFO	Listening on port 52656
+1577177788592	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 16ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 9ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 68ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1465ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 25ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 60ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1229ms)
 JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
@@ -1378,127 +234,6 @@ Current stack
 applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 5292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 7668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[JavaScript error: https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js, line 6: TypeError: f.gIframe.contentWindow is null
-[Child 10632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 1577170450317	Marionette	INFO	Stopped listening on port 61670
-[GPU 
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577170465297	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilea5J2FI"
-1577170465995	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilea5J2FI\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577170466014	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilea5J2FI\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577170466908	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577170467876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577170467876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577170467876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577170467876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577170468122	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577170468678	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577170470873	Marionette	INFO	Listening on port 61904
-1577170471057	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 40ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 26ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 87ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1241ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
-Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
-[[Exception stack
-onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
-tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
-Current stack
-applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
-wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
-]]
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-[Child 2716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 2716, Chro[Child 16348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[[Parent 844, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 3668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3411577170566250	Marionette	INFO	Stopped listening on port 61904
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1577171069780	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofileQC1xEs"
-1577171070489	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileQC1xEs\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577171070508	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofileQC1xEs\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577171071349	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577171072148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577171072148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577171072148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577171072148	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577171072368	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577171072859	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577171074298	Marionette	INFO	Listening on port 62544
-1577171074531	Marionette	WARN	TLS certificate errors will be ignored for this session
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
 [[Exception stack
 onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
@@ -1513,12 +248,106 @@ _handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
 receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
 receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
 ]]
+JavaScript error: , line 0: uncaught exception: undefined
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+1577178127317	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilebo4A2Q"
+1577178128091	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilebo4A2Q\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577178128106	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilebo4A2Q\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577178129086	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577178129964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577178129964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577178129964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577178129964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577178130191	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+1577178130757	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1577178132522	Marionette	INFO	Listening on port 53014
+1577178132566	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 12ms)
 JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 35ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 979ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 19ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 109ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1464ms)
 JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
@@ -1528,44 +357,9 @@ Current stack
 applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
+JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-JavaScript error: , line 0: uncaught exception: Object
-[Parent 8852, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 9492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 9492, Chrome_ChildThread] WARNING: pip[Child 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1577172401337	Marionette	INFO	Stopped listening on port 62544
-[GPU 4544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/sddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577171331116	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilevTC765\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
-awaitPromise@XPIProvider.jsm:226:15
-syncLoadManifest@XPIInstall.jsm:754:22
-updateMetadata@XPIDatabase.jsm:2817:32
-updateExistingAddon@XPIDatabase.jsm:3033:23
-processFileChanges@XPIDatabase.jsm:3120:31
-checkForChanges@XPIProvider.jsm:2924:55
-startup@XPIProvider.jsm:2384:12
-callProvider@AddonManager.jsm:215:31
-_startProvider@AddonManager.jsm:651:17
-startup@AddonManager.jsm:875:14
-startup@AddonManager.jsm:3534:26
-observe@addonManager.js:87:29
-1577171332270	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-1577171333375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1577171333375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1577171333375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1577171333375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1577171333734	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
-1577171334301	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1577171336261	Marionette	INFO	Listening on port 63027
-1577171336556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
 [[Exception stack
 onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
@@ -1580,13 +374,6 @@ _handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
 receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
 receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
 ]]
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 14ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 10ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 43ms)
-JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1382ms)
-JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
 Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
 [[Exception stack
 onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
@@ -1595,20 +382,150 @@ Current stack
 applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
 wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
 ]]
-1577171367895	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+JavaScript error: , line 0: uncaught exception: undefined
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+1577178184029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:237:64
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript error: , line 0: uncaught exception: Object
-[Parent 13516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10556, [Child 7920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7920[Parent 7588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch1577178528784	Marionette	INFO	Stopped listening on port 53014
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[C
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-hild[Parent 13516, Gecko_IOThread] WAR NING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1577172399224	Marionette	INFO	Stopped listening on port 63027
+1577178556450	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELBER~1\\AppData\\Local\\Temp\\rust_mozprofilevK8iNQ"
+1577178557178	addons.xpi-utils	WARN	updateMetadata: Add-on anticontainer@downthemall.net is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilevK8iNQ\extensions\anticontainer@downthemall.net.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577178557193	addons.xpi-utils	WARN	updateMetadata: Add-on dta3noaero@vano is invalid: Error: File C:\Users\Delbert_F\AppData\Local\Temp\rust_mozprofilevK8iNQ\extensions\dta3noaero@vano.xpi does not contain a valid manifest(resource://gre/modules/addons/XPIInstall.jsm:670:11) JS Stack trace: loadManifest@XPIInstall.jsm:670:11
+awaitPromise@XPIProvider.jsm:226:15
+syncLoadManifest@XPIInstall.jsm:754:22
+updateMetadata@XPIDatabase.jsm:2817:32
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+checkForChanges@XPIProvider.jsm:2924:55
+startup@XPIProvider.jsm:2384:12
+callProvider@AddonManager.jsm:215:31
+_startProvider@AddonManager.jsm:651:17
+startup@AddonManager.jsm:875:14
+startup@AddonManager.jsm:3534:26
+observe@addonManager.js:87:29
+1577178558136	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1577178559011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577178559011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577178559012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577178559012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577178559250	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1855: Error: Cannot find loader for bootstrap
+1577178559791	addons.webextension.webextension@metamask.io	WARN	Loading extension 'webextension@metamask.io': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1577178561307	Marionette	INFO	Listening on port 53514
+1577178561695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/bg-libs.js, line 1: TypeError: asm.js type error: expecting argument type declaration for 'e' of the form 'arg = arg|0' or 'arg = +arg' or 'arg = fround(arg)'
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 38ms)
+JavaScript warning: moz-extension://2309b926-c5f5-4bf9-b4fa-97773a403fa3/background.js, line 0: Successfully compiled asm.js code (total compilation time 1234ms)
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 0: Error: DataCloneError: The object could not be cloned.
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+1577178591663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js 479
+[[Exception stack
+onSendHeaders@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/common/scripts/wrc.js:479:21
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+fire@resource://gre/modules/ExtensionChild.jsm:1232:41
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:1236:17
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:914:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:913:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:992:12
+_handleMessage@resource://gre/modules/MessageChannel.jsm:989:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:225:14
+receiveMessage@resource://gre/modules/MessageChannel.jsm:218:10
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
+Extension error: TypeError: AvastWRC.bal.sp is undefined moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js 187
+[[Exception stack
+onTabUpdated/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.sp.crx.js:187:21
+tabExists/<@moz-extension://98fc2af2-e071-42cc-990b-5112737e3cba/scripts/bs.crx.js:381:30
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:601:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:804:18
+]]
